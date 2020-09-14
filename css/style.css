@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #999999;
+  }
+
+header {
+    background-color: #184e6d;
+    text-align:center; 
+    padding: 20px;
+}
+
+main {
+    padding:5%;
+}
+
+footer {
+    padding: 5px;
+    background-color: #666666;
+    text-align:center;
+    color: #ffffff;
+    font-style: italic;
+    font-size: 16px;
+    
+}
+
+#intro {
+    text-align:center;
+    border-bottom: double 6px #000;
+    padding: 0 0 20px;
+    margin-bottom:20px;
+}
+
+h1 {
+    color:#ffffff;
+    text-transform: uppercase;
+    font-weight:400;
+    font-size:20px;
+}
+
+h2 {
+    color: #000;
+    font-weight: 700; 
+    font-size: 20px;
+}
+
+h3 {
+    color: #000;
+    font-weight: 700; 
+    font-size: 20px;
+    margin: 20px 0 10px;
+}
+
+form {
+    padding:0;
+    width:100%;
+}
+
+fieldset {
+    margin: 0 0 20px;
+    border:none;
+    padding:0 !important;
+}
+
+#contactinfo {
+    border-bottom: 2px solid #000;
+    padding-bottom: 30px !important;
+}
+
+.legend {
+    background:none;
+    width:100%;
+    color: #000;
+    font-weight: 700; 
+    font-size: 20px;
+}
+
+label {
+    display:inline-block;
+    font-size: 14px;
+    margin: 20px 0 8px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+    width:100%;
+    background-color: #ededed;
+    padding: 10px;
+    border-radius:5px;
+    border:none;
+    color: #666666;
+  transition: background-color 0.5s ease-in-out;
+}
+
+input::placeholder {
+    font-size: 14px;
+}
+
+
+#email::placeholder, #name::placeholder  {
+    text-align:right;
+    font-size: 14px;
+}
+
+#checksection {
+    line-height: 24px;
+}
+
+#checksection label {
+    display:inline-block;
+    font-size: 14px;
+    margin: 0 0 0 5px;
+}
+
+#checksection p {
+    margin-bottom:5px;
+}
+
+button{
+    background-color: #4ebbb5;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: 0;
+    color: #ffffff;
+    width: 100%;
+    text-align:center;
+    margin: 30px 0 40px;
+}
+
+button:hover {
+    background-color: #389691;
+}
+
+input:focus, select:focus {
+    border: 1px solid #4ebbb5;
+    background-color: #d0fffc;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+
+    main {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 5% 0;
+    }
+
+    label {
+        width: 29%;
+    }
+    
+    input[type="text"],
+    input[type="password"],
+    input[type="date"],
+    input[type="datetime"],
+    input[type="email"],
+    input[type="number"],
+    input[type="search"],
+    input[type="tel"],
+    input[type="time"],
+    input[type="url"],
+    select {
+        width: 70%
+    
+    }
+  
+    #checksection label {
+        width: 80%;
+    }
+
+  }
+  
